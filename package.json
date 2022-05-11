@@ -7,13 +7,14 @@
 	},
 	"repository": "skitsanos/uibits",
 	"main": "dist/index.js",
-	"module": "dist/index.js",
+	"module": "src/index.js",
 	"license": "MIT",
 	"engines": {
 		"node": ">=14"
 	},
 	"scripts": {
-		"build": "swc ./src -d dist"
+		"build": "swc ./src -d dist",
+		"prepublish": "swc ./src -d dist"
 	},
 	"files": [
 		"dist"
