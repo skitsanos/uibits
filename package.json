@@ -15,9 +15,6 @@
 	"scripts": {
 		"build": "swc ./src -d dist"
 	},
-	"files": [
-		"dist"
-	],
 	"peerDependencies": {
 		"react": "^17.0.2"
 	},
