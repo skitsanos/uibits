@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"build": "swc ./src -d dist",
-		"prepare": "swc ./src -d dist"
+		"postprepare": "swc ./src -d dist"
 	},
 	"peerDependencies": {
 		"react": "^17.0.2"
