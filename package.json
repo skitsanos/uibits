@@ -13,8 +13,7 @@
 		"node": ">=14"
 	},
 	"scripts": {
-		"build": "swc ./src -d dist",
-		"cleanup": "rm -rf dist"
+		"build": "swc ./src -d dist"
 	},
 	"files": [
 		"dist"
