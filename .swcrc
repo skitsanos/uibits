@@ -1,0 +1,20 @@
+{
+	"sourceMaps": true,
+	"minify": false,
+	"jsc": {
+		"target": "es2020",
+		"parser": {
+			"syntax": "ecmascript",
+			"jsx": true,
+			"decorators": false
+		},
+		"transform": {
+			"react": {
+				"development": true
+			}
+		}
+	},
+	"module": {
+		"type": "es6"
+	}
+}
