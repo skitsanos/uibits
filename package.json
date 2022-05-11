@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"build": "swc ./src -d dist",
-		"prepublish": "swc ./src -d dist"
+		"postinstall": "swc ./src -d dist"
 	},
 	"files": [
 		"dist"
