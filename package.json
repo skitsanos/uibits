@@ -27,6 +27,6 @@
     "devDependencies": {
         "gulp": "^5.0.0",
         "gulp-less": "^5.0.0",
-        "gulp-swc": "^1.2.3"
+        "gulp-swc": "^2.0.0"
     }
 }
